@@ -44,7 +44,7 @@ function crearGaleria(){
 
     for(let i = 1; i <= 6; i++){
         const imagen = document.createElement('IMG');
-        imagen.src = `build/img/thumb/${i}.webp`;
+        imagen.src = `img/thumb/${i}.webp`;
         imagen.dataset.imagenId = i;
 
         // funcion de mostrar imagen
@@ -62,7 +62,7 @@ function mostrarImagen(e){
     const id = parseInt(e.target.dataset.imagenId);
     
     const imagen = document.createElement('IMG');
-    imagen.src = `build/img/grande/${id}.webp`;
+    imagen.src = `img/grande/${id}.webp`;
     
 
     const overlay = document.createElement('DIV');
