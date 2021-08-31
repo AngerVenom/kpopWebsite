@@ -702,7 +702,7 @@ h3 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   place-items: center;
   background-color: #4CB8B3;
@@ -762,7 +762,7 @@ h2 {
 }
 
 /*media querie de tarjetas */
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -773,7 +773,7 @@ h2 {
 @media (max-width: 768px) {
   .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0.9090909091rem;
   }
 }
