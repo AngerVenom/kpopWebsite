@@ -763,7 +763,14 @@ h2 {
 
 /*media querie de tarjetas */
 @media (max-width: 500px) {
-  .cards {
+  .navegacion-principal {
+   position: fixed;
+   width: 100%;
+   display: flex;
+   gap: 2rem;
+   justify-content: center;
+}
+   .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.9090909091rem;
