@@ -770,10 +770,10 @@ h2 {
   }
 }
 /*media querie tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0.9090909091rem;
   }
 }
