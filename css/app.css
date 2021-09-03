@@ -703,7 +703,7 @@ h3 {
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.996rem;
+  gap: 1rem;
   place-items: center;
   background-color: #4CB8B3;
 }
