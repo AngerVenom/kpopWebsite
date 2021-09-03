@@ -702,8 +702,8 @@ h3 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: o.996rem;
   place-items: center;
   background-color: #4CB8B3;
 }
@@ -761,19 +761,4 @@ h2 {
   border-radius: 10px;
 }
 
-/*media querie de tarjetas */
-@media (min-width: 500px) {
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.9090909091rem;
-  }
-}
-/*media querie tablet */
-@media (max-width: 768px) {
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.9090909091rem;
-  }
-}
+
