@@ -702,7 +702,7 @@ h3 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
   place-items: center;
   background-color: #4CB8B3;
@@ -761,26 +761,5 @@ h2 {
   border-radius: 10px;
 }
 
-/*media querie de tarjetas */
-@media (max-width: 500px) {
-  .navegacion-principal {
-      position: fixed;
-      width: 100%;
-      display: flex;
-      gap: 2rem;
-      justify-content: center;
-}
-   .cards {
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       gap: 0.9090909091rem;
-  }
-}
-/*media querie tablet */
-@media (min-width: 768px) {
-  .cards {
-       display: grid;
-       grid-template-columns: repeat(4, 1fr);
-       gap: 0.9090909091rem;
-  }
-}
+
+
