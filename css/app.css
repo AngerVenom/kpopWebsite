@@ -761,4 +761,12 @@ h2 {
   border-radius: 10px;
 }
 
-
+@media (max-width: 650px){
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        place-items: center;
+     
+}
+}
